@@ -1,0 +1,71 @@
+% Preamble for "Binary P-adic Theory of Test Ideals in Mixed Characteristic"
+
+% Required packages
+\usepackage{amsmath, amssymb, amsthm, amsfonts}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{cleveref}
+\usepackage{booktabs}
+\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+% Set up hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    citecolor=green
+}
+
+% Theorem environments
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{problem}[theorem]{Problem}
+
+\theoremstyle{remark}
+\newtheorem{notation}[theorem]{Notation}
+
+% Custom commands for common mathematical objects
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+
+% P-adic specific commands
+\newcommand{\val}{\operatorname{val}_p}
+\newcommand{\ordp}{\operatorname{ord}_p}
+\newcommand{\binp}{\operatorname{bin}_p}
+\newcommand{\tauplus}{\tau_+}
+\newcommand{\pfrac}{\mathcal{P}}
+\newcommand{\perfectoid}{\operatorname{perf}}
+\newcommand{\binfrac}{\mathcal{B}}
+
+% Test ideal specific commands
+\newcommand{\testideal}[2]{\tau_+(#1,#2)}
+\newcommand{\completion}{\hat}
+\newcommand{\trace}{\operatorname{Tr}}
+\newcommand{\predicate}[2]{\mathcal{P}_{#1}(#2)}
+
+% Other useful commands
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+% Remove conflicting proof command
+% \newcommand{\proof}[1]{\begin{proof}#1\end{proof}}
+
+% Remove conflicting qedhere command
+% \newcommand{\qedhere}{\tag*{\qed}} 

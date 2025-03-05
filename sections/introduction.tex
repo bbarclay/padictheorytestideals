@@ -1,0 +1,59 @@
+\section{Introduction}
+
+\subsection{Background and Motivation}
+
+The theory of test ideals has played a central role in commutative algebra and algebraic geometry for the past three decades. Test ideals were originally introduced by Hochster and Huneke \cite{HH90} as a characteristic $p > 0$ tool to study tight closure, a closure operation that captures subtle aspects of rings in positive characteristic. In characteristic 0, multiplier ideals serve an analogous purpose and have become fundamental in birational geometry \cite{Laz04}. Both notions provide sophisticated ways to measure singularities of algebraic varieties, with applications ranging from the minimal model program to bounds on symbolic powers of ideals.
+
+However, extending these theories to mixed characteristic settings—rings and schemes whose generic point has characteristic 0 but special points have positive characteristic—has presented significant challenges. The absence of the Frobenius endomorphism in characteristic 0 requires different techniques than those used in positive characteristic, while the arithmetic complications of mixed characteristic demand innovative approaches.
+
+\subsection{Recent Developments}
+
+Recent advancements in p-adic geometry, particularly the theory of perfectoid spaces developed by Scholze \cite{Sch12}, have provided new tools for tackling problems in mixed characteristic. Building on these developments, Ma and Schwede \cite{MS21} introduced a notion of test ideals in mixed characteristic using the "plus closure" operation. Further work by Takamatsu and Yoshikawa \cite{TY21} and Bhatt et al. \cite{BMP+23} has expanded our understanding of these objects.
+
+Despite these advances, three fundamental problems have remained open and represent significant barriers to developing a complete theory:
+
+\begin{enumerate}
+    \item \textbf{Completion Problem:} In characteristic $p > 0$, test ideals are known to commute with completion under mild conditions. Does $\tau_+(R,\Delta)$ commute with completion in mixed characteristic? Specifically, is $\tau_+(\hat{R},\hat{\Delta}) \cap R = \tau_+(R,\Delta)$?
+    
+    \item \textbf{Subadditivity Problem:} A fundamental property of test ideals in characteristic $p > 0$ and multiplier ideals in characteristic 0 is subadditivity. For divisors $\Delta_1$ and $\Delta_2$, does the subadditivity property $\tau_+(R,\Delta_1+\Delta_2) \subseteq \tau_+(R,\Delta_1) \cdot \tau_+(R,\Delta_2)$ hold in mixed characteristic?
+    
+    \item \textbf{Alternative Formulations Problem:} Multiple formulations of test ideals have emerged in mixed characteristic (standard, trace-based, perfectoid, tight closure). How do these different formulations relate to each other? Is there a unified framework that explains when they agree and when they differ?
+\end{enumerate}
+
+\subsection{Our Contribution}
+
+In this paper, I introduce a novel approach based on binary p-adic patterns that resolves all three problems simultaneously. The key insight is that test ideal membership in mixed characteristic can be precisely characterized by predicates on the p-adic digit representations of ring elements. This characterization transforms complex algebraic conditions into computational predicates that can be systematically analyzed.
+
+Our main contribution is threefold:
+
+\begin{enumerate}
+    \item We develop a comprehensive binary p-adic framework that characterizes test ideal membership through explicit predicates on p-adic digit patterns.
+    
+    \item We prove that test ideals commute with completion in mixed characteristic, with the precise relationship governed by these binary predicates.
+    
+    \item We establish the subadditivity property for test ideals in mixed characteristic through a novel perfectoid factorization theory, which decomposes elements based on their binary p-adic patterns.
+    
+    \item We unify the various formulations of test ideals in mixed characteristic through a master binary predicate with specific modifications that precisely characterize when and how the formulations differ.
+\end{enumerate}
+
+This binary p-adic approach provides a powerful new paradigm for understanding test ideals in mixed characteristic, bridging the gap between characteristic $p > 0$ and characteristic 0 theories. By casting algebraic properties in terms of digit patterns, we obtain a computationally accessible framework that yields surprising insights into the structure of mixed characteristic rings.
+
+\subsection{Organization of the Paper}
+
+The remainder of this paper is organized as follows:
+
+In Section \ref{sec:preliminaries}, we review the necessary background on p-adic expansions, test ideals in various characteristics, and perfectoid algebras.
+
+Section \ref{sec:binary_framework} introduces the binary p-adic framework, developing the theory of binary predicates that characterize test ideal membership.
+
+Section \ref{sec:completion_theorem} addresses the completion problem, proving that test ideals commute with completion through precise binary predicates.
+
+In Section \ref{sec:subadditivity}, we establish the subadditivity property for test ideals in mixed characteristic using perfectoid factorization theory.
+
+Section \ref{sec:alternative_formulations} unifies the various formulations of test ideals through modifications of the master binary predicate.
+
+Section \ref{sec:global_properties} verifies that our approach satisfies all necessary schema-theoretic properties for a global theory.
+
+Section \ref{sec:applications} presents applications and examples illustrating the computational power of the binary p-adic approach.
+
+Finally, Section \ref{sec:conclusion} summarizes our results and discusses directions for future research. 
