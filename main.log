@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.5)  4 MAR 2025 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.5)  4 MAR 2025 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -770,9 +770,29 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
 (/usr/local/texlive/2024basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./sections/abstract.tex) (./sections/introduction.tex [1
+(./sections/abstract.tex) (./sections/introduction.tex
+
+LaTeX Warning: Citation `HH90' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Laz04' on page 1 undefined on input line 5.
+
+[1
 
 {/usr/local/texlive/2024basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `Sch12' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `MS21' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `TY21' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `BMP+23' on page 2 undefined on input line 11.
+
+
 Overfull \hbox (24.06288pt too wide) in paragraph at lines 16--17
 \OT1/cmr/m/n/12 com-mute with com-ple-tion in mixed char-ac-ter-is-tic? Specif-
 i-cally, is $\OML/cmm/m/it/12 ^^\[]\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []\OT1
@@ -784,8 +804,9 @@ i-cally, is $\OML/cmm/m/it/12 ^^\[]\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []\OT1
 LaTeX Warning: Reference `sec:completion_theorem' on page 3 undefined on input 
 line 49.
 
+[3]
 
-LaTeX Warning: Reference `sec:global_properties' on page 3 undefined on input l
+LaTeX Warning: Reference `sec:global_properties' on page 4 undefined on input l
 ine 55.
 
 
@@ -794,7 +815,7 @@ Overfull \hbox (7.36267pt too wide) in paragraph at lines 55--56
 es-sary schema-theoretic
  []
 
-[3]) (./sections/preliminaries.tex
+) (./sections/preliminaries.tex
 LaTeX Font Info:    Trying to load font information for U+euf on input line 7.
 
 (/usr/local/texlive/2024basic/texmf-dist/tex/latex/amsfonts/ueuf.fd
@@ -809,6 +830,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 53.
 
 [5] [6]
+
+LaTeX Warning: Citation `MS21' on page 7 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Sch12' on page 7 undefined on input line 110.
+
+
 Overfull \hbox (5.22937pt too wide) in paragraph at lines 121--122
 []\OT1/cmr/bx/n/12 Definition 2.12 \OT1/cmr/m/n/12 (Per-fec-toid Com-ple-tion)\
 OT1/cmr/bx/n/12 . []\OT1/cmr/m/n/12 For a com-plete lo-cal do-main $(\OML/cmm/m
@@ -909,8 +937,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 670.
 
-[28] [29] [30] [31] [32] [33]) (./sections/completion_theorem.tex [34])
-(./sections/subadditivity.tex [35] [36] [37] [38]
+[28] [29] [30] [31] [32] [33]) (./sections/completion_theorem.tex [34] [35])
+(./sections/subadditivity.tex [36] [37] [38]
 Overfull \hbox (0.48186pt too wide) in paragraph at lines 93--94
 []\OT1/cmr/bx/n/12 Lemma 6.6 \OT1/cmr/m/n/12 (Key Fac-tor-iza-tion Lemma)\OT1/c
 mr/bx/n/12 . []\OT1/cmr/m/it/12 For any $\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 
@@ -919,35 +947,35 @@ mr/bx/n/12 . []\OT1/cmr/m/it/12 For any $\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2
 A[] +
  []
 
-[39] [40]
-Overfull \hbox (0.4646pt too wide) in paragraph at lines 197--198
-[]\OT1/cmr/bx/n/12 Proposition 6.7 \OT1/cmr/m/n/12 (Bi-nary Pred-i-cate De-com-
+[39] [40] [41] [42]
+Overfull \hbox (0.4646pt too wide) in paragraph at lines 218--219
+[]\OT1/cmr/bx/n/12 Proposition 6.8 \OT1/cmr/m/n/12 (Bi-nary Pred-i-cate De-com-
 po-si-tion)\OT1/cmr/bx/n/12 . []\OT1/cmr/m/it/12 For ef-fec-tive $\U/msb/m/n/12
  Q$\OT1/cmr/m/it/12 -divisors
  []
 
-[41] [42] [43] [44] [45]
-Overfull \hbox (67.83142pt too wide) detected at line 372
+[43] [44] [45] [46]
+Overfull \hbox (67.83142pt too wide) detected at line 393
 []
  []
 
-[46]
-Overfull \hbox (44.28587pt too wide) in paragraph at lines 403--404
-[]\OT1/cmr/bx/n/12 Example 6.13 \OT1/cmr/m/n/12 (Aparent Coun-terex-am-ple Re-s
+[47]
+Overfull \hbox (44.28587pt too wide) in paragraph at lines 424--425
+[]\OT1/cmr/bx/n/12 Example 6.14 \OT1/cmr/m/n/12 (Aparent Coun-terex-am-ple Re-s
 olved)\OT1/cmr/bx/n/12 . []\OT1/cmr/m/n/12 Con-sider $\OML/cmm/m/it/12 R \OT1/c
 mr/m/n/12 = \U/msb/m/n/12 Z[]\OT1/cmr/m/n/12 [[\OML/cmm/m/it/12 x; y; z\OT1/cmr
 /m/n/12 ]]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 xy \OMS/cmsy/m/n/
 12 ^^@
  []
 
-[47]) (./sections/alternative_formulations.tex [48]
+[48]) (./sections/alternative_formulations.tex [49]
 Overfull \hbox (11.28127pt too wide) in paragraph at lines 16--17
 []\OT1/cmr/bx/n/12 Definition 7.2 \OT1/cmr/m/n/12 (Trace-based Test Ideal)\OT1/
 cmr/bx/n/12 . []\OT1/cmr/m/n/12 The trace-based test ideal $\OML/cmm/m/it/12 ^^
 \[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 R; \OT1/cmr/m/n/12 ^^A)$
  []
 
-[49] [50]
+[50] [51]
 Overfull \hbox (56.01906pt too wide) detected at line 83
 \OML/cmm/m/it/12 P[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; a[]; []\OT1/cmr/m/n/
 12 ) = \OMS/cmsy/m/n/12 9\OML/cmm/m/it/12 j \OMS/cmsy/m/n/12 ^^U \OT1/cmr/m/n/1
@@ -964,7 +992,7 @@ Overfull \hbox (1.14001pt too wide) in paragraph at lines 97--98
 -cate)\OT1/cmr/bx/n/12 . []\OT1/cmr/m/n/12 The frac-tional pat-tern pred-
  []
 
-[51] [52] [53] [54] [55]
+[52] [53] [54] [55] [56]
 Overfull \hbox (131.8206pt too wide) detected at line 255
 \OML/cmm/m/it/12 I[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 x \OM
 S/cmsy/m/n/12 2 \OML/cmm/m/it/12 R \OMS/cmsy/m/n/12 j 9\OML/cmm/m/it/12 c [] P[
@@ -975,20 +1003,20 @@ it/12 q \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 p[] \OMS/cmsy/m/n/12 ^^] \OT1/cmr/m/
 n/12 0\OMS/cmsy/m/n/12 g
  []
 
-[56] [57]
+[57] [58]
 Overfull \hbox (8.39777pt too wide) in paragraph at lines 307--308
 []\OT1/cmr/m/n/12 Therefore, $\OML/cmm/m/it/12 P[]$ \OT1/cmr/m/n/12 pre-cisely 
 char-ac-ter-izes the dif-fer-ence be-tween $\OML/cmm/m/it/12 ^^\[]\OT1/cmr/m/n/
 12 (\OML/cmm/m/it/12 R; \OT1/cmr/m/n/12 ^^A)$
  []
 
-[58] [59]
+[59] [60]
 Overfull \hbox (7.40698pt too wide) in paragraph at lines 400--401
 []\OT1/cmr/m/n/12 This pro-vides a com-plete uni-fi-ca-tion of the al-ter-na-ti
 ve for-mu-la-tions through
  []
 
-[60]
+[61]
 Overfull \hbox (3.64491pt too wide) in paragraph at lines 416--417
 []$\OML/cmm/m/it/12 B[]\OT1/cmr/m/n/12 ([][](\OML/cmm/m/it/12 p \OT1/cmr/m/n/12
  + \OML/cmm/m/it/12 p[]\OT1/cmr/m/n/12 )) = []$ be-cause $\OML/cmm/m/it/12 B[]\
@@ -998,7 +1026,13 @@ L/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m
 /it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; []\OT1/cmr/m/n/12 ) =
  []
 
-[61]) (./sections/global_properties.tex [62]
+[62] [63] [64] [65]
+Overfull \hbox (31.18066pt too wide) in paragraph at lines 558--559
+[]\OT1/cmr/m/n/12 This is rig-or-ously de-rived us-ing the ex-plicit iso-mor-ph
+ism be-tween $\OML/cmm/m/it/12 R[]=p[]R[]$
+ []
+
+[66] [67]) (./sections/global_properties.tex [68]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 36.
@@ -1007,8 +1041,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 36.
 
-[63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74])
-(./sections/applications.tex [75]
+[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83])
+(./sections/applications.tex [84]
 Overfull \hbox (25.85266pt too wide) in paragraph at lines 29--30
 []\OT1/cmr/bx/n/12 Example 9.1 \OT1/cmr/m/n/12 (Com-put-ing Test Ideal Mem-ber-
 ship)\OT1/cmr/bx/n/12 . []\OT1/cmr/m/n/12 Con-sider $\OML/cmm/m/it/12 R \OT1/cm
@@ -1017,7 +1051,7 @@ r/m/n/12 = \U/msb/m/n/12 Z[]\OT1/cmr/m/n/12 [[\OML/cmm/m/it/12 x; y\OT1/cmr/m/n
 ^@
  []
 
-[76]
+[85]
 Overfull \hbox (57.84406pt too wide) in paragraph at lines 67--68
 []\OT1/cmr/m/n/12 Therefore, the jump-ing num-bers for this fam-ily of test ide
 -als are $\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 
@@ -1026,8 +1060,120 @@ m/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 2\OML/cmm/m/it/1
 2 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; []\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/12 ,
  []
 
-[77]) (./sections/conclusion.tex [78] [79]) (./sections/acknowledgments.tex
-[80]) (./main.bbl) [81] (./main.aux)
+[86]) (./sections/conclusion.tex [87] [88]) (./sections/appendices.tex
+Overfull \hbox (15.41786pt too wide) in paragraph at lines 1--1
+[]\OT1/cmr/bx/n/17.28 Detailed Pa-ram-e-ter Con-struc-tion Al-go-rithm 
+ []
+
+[89]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 36.
+
+[90] [91] [92] [93]
+Overfull \hbox (33.48503pt too wide) in paragraph at lines 163--164
+[]\OT1/cmr/bx/n/12 Definition B.2 \OT1/cmr/m/n/12 (Mul-ti--Prime Bi-nary Pred-i
+-cate)\OT1/cmr/bx/n/12 . []\OT1/cmr/m/n/12 For a set of primes $\OMS/cmsy/m/n/1
+2 f\OML/cmm/m/it/12 p[]; p[]; [] ; p[]\OMS/cmsy/m/n/12 g$
+ []
+
+[94] [95]
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
+[]\OT1/cmr/bx/n/12 Ma-Schwede
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+[]\OT1/cmr/bx/n/12 Perfectoid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+[]\OT1/cmr/m/n/12 Theoretical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+[]\OT1/cmr/m/n/12 Perfectoid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+[]\OT1/cmr/m/n/12 Computational
+ []
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 255--255
+[]\OT1/cmr/m/n/12 Explicit bi-nary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+[]\OT1/cmr/m/n/12 Implicit al-ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+[]\OT1/cmr/m/n/12 Non-complete
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+[]\OT1/cmr/m/n/12 Local meth-ods
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 261--262
+[]\OT1/cmr/m/n/12 Perfectoid com-
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 263--263
+[]\OT1/cmr/m/n/12 Explicit con-ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
+[]\OT1/cmr/m/n/12 Developed in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
+[]\OT1/cmr/m/n/12 Implementation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--270
+[][]
+ []
+
+[96] [97
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.291     \item \textbf
+                       {Strengths:} Explicit predicates, efficient computati...
+]
+Underfull \hbox (badness 1917) in paragraph at lines 319--320
+[]\OT1/cmr/m/n/12 Element $\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/
+12 R$\OT1/cmr/m/n/12 , di-vi-sor $^^A$, fi-nite set of rep-re-sen-ta-tives
+ []
+
+[98] [99]
+Overfull \hbox (1.3274pt too wide) in paragraph at lines 362--363
+[]\OT1/cmr/bx/n/12 Example F.1 \OT1/cmr/m/n/12 (Three--Di-men-sional Sin-gu-lar
+ Va-ri-ety)\OT1/cmr/bx/n/12 . []\OT1/cmr/m/n/12 Con-sider $\OML/cmm/m/it/12 X \
+OT1/cmr/m/n/12 = [](\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 )$
+ []
+
+[100])
+No file main.bbl.
+[101] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1036,17 +1182,20 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3CD1AA5F13DDAF9618B8F7142649AF71;15988.
+(rerunfilecheck)             Checksum: BD3C3842FE0175F191F4649883869817;21428.
  ) 
 Here is how much of TeX's memory you used:
- 24320 strings out of 475567
- 456448 string characters out of 5777889
- 1940187 words of memory out of 5000000
- 45669 multiletter control sequences out of 15000+600000
+ 24475 strings out of 475567
+ 458771 string characters out of 5777889
+ 1941187 words of memory out of 5000000
+ 45734 multiletter control sequences out of 15000+600000
  573350 words of font info for 94 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 107i,16n,110p,806b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,16n,110p,806b,701s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/bobbarclay/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknap
 pen/ec/tcrm1200.600pk></usr/local/texlive/2024basic/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/
@@ -1072,10 +1221,10 @@ ti8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/eu
 ler/eufm10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsf
 onts/euler/eufm7.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/publi
 c/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (81 pages, 508253 bytes).
+Output written on main.pdf (101 pages, 568234 bytes).
 PDF statistics:
- 1131 PDF objects out of 1200 (max. 8388607)
- 986 compressed objects within 10 object streams
- 388 named destinations out of 1000 (max. 500000)
- 589 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1380 PDF objects out of 1440 (max. 8388607)
+ 1212 compressed objects within 13 object streams
+ 481 named destinations out of 1000 (max. 500000)
+ 789 words of extra memory for PDF output out of 10000 (max. 10000000)
 
