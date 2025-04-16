@@ -1,0 +1,35 @@
+% LaTeX commands for including the visualizations in the paper
+% Include this file in the preamble with \input{visualizations/latex_inclusion.tex}
+
+% Define a custom command for including visualizations with consistent styling
+\newcommand{\includeVisualization}[3][1.0]{%
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=#1\textwidth]{visualizations/output/#2}
+    \caption{#3}
+    \label{fig:#2}
+  \end{figure}
+}
+
+% Examples of usage:
+
+% p-adic digit patterns
+% \includeVisualization[0.8]{padic_digits_base_2.pdf}{Binary representation of $p$-adic digits for integers from $0$ to $20$, showing the pattern of digits $a_i$ in the $p$-adic expansion.}
+
+% Predicate evaluation
+% \includeVisualization{predicate_evaluation_p3.pdf}{Visualization of predicate evaluation $\mathcal{P}_\Delta$ for test ideal membership with $p=3$, showing the relationship between valuation and weighted sum components.}
+
+% Subadditivity property
+% \includeVisualization{subadditivity.pdf}{Illustration of the subadditivity property for test ideals, showing that $\tau_+(R,\Delta_1+\Delta_2) \subseteq \tau_+(R,\Delta_1) \cdot \tau_+(R,\Delta_2)$.}
+
+% Completion theorem
+% \includeVisualization{completion_theorem.pdf}{Visualization of the completion theorem, demonstrating that test ideals commute with completion: $\tau_+(\hat{R},\hat{\Delta}) \cap R = \tau_+(R,\Delta)$.}
+
+% Alternative formulations
+% \includeVisualization{alternative_formulations.pdf}{Unification of alternative formulations of test ideals through explicit predicate modifications.}
+
+% Computational framework
+% \includeVisualization{computational_framework.pdf}{The computational framework for test ideals in mixed characteristic, showing the pipeline from divisor input to test ideal computation.}
+
+% You can easily adjust the width parameter for each visualization as needed
+% e.g., \includeVisualization[0.9]{filename.pdf}{Caption text} 

@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+% Include the visualization commands
+\input{latex_inclusion}
+
+\title{Example Usage of P-adic Test Ideal Visualizations}
+\author{Brandon Barclay}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+This document demonstrates how to include the visualizations generated for the Binary P-adic Theory of Test Ideals paper. We use the custom \texttt{$\backslash$includeVisualization} command to easily incorporate these visualizations with proper formatting and captions.
+
+\section{P-adic Digit Patterns}
+
+\includeVisualization[0.8]{padic_digits_base_2.pdf}{Binary representation of $p$-adic digits for integers from $0$ to $20$, showing the pattern of digits $a_i$ in the $p$-adic expansion with $p=2$.}
+
+The visualization above illustrates the binary ($p=2$) digit patterns. Similar visualizations are available for other prime bases ($p=3$ and $p=5$).
+
+\section{Test Ideal Predicate Evaluation}
+
+\includeVisualization{predicate_evaluation_p3.pdf}{Visualization of predicate evaluation $\mathcal{P}_\Delta$ for test ideal membership with $p=3$, showing the relationship between valuation and weighted sum components.}
+
+This visualization demonstrates how the predicate $\mathcal{P}_\Delta(\text{bin}_p(x))$ is evaluated for different integers, showing both the valuation condition and the weighted sum condition.
+
+\section{Subadditivity Property}
+
+\includeVisualization{subadditivity.pdf}{Illustration of the subadditivity property for test ideals, showing that $\tau_+(R,\Delta_1+\Delta_2) \subseteq \tau_+(R,\Delta_1) \cdot \tau_+(R,\Delta_2)$.}
+
+The visualization above illustrates the subadditivity property for test ideals, one of the key results of the paper.
+
+\section{Completion Theorem}
+
+\includeVisualization{completion_theorem.pdf}{Visualization of the completion theorem, demonstrating that test ideals commute with completion: $\tau_+(\hat{R},\hat{\Delta}) \cap R = \tau_+(R,\Delta)$.}
+
+This visualization explains the completion theorem both from a set-theoretic perspective and through predicate invariance.
+
+\section{Unification of Alternative Formulations}
+
+\includeVisualization{alternative_formulations.pdf}{Unification of alternative formulations of test ideals through explicit predicate modifications.}
+
+The above visualization shows how different approaches to test ideals can be unified through specific transformations of the predicate parameters.
+
+\section{Computational Framework}
+
+\includeVisualization{computational_framework.pdf}{The computational framework for test ideals in mixed characteristic, showing the pipeline from divisor input to test ideal computation.}
+
+This visualization presents the computational pipeline for working with test ideals in mixed characteristic, highlighting key advantages of the approach.
+
+\end{document} 

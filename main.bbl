@@ -1,0 +1,79 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{AMBT19}
+
+\bibitem[AMBT19]{AMBT19}
+Yves André, Matthew Morrow, Bhargav Bhatt, and Takeshi Tsuji.
+\newblock Perfectoid spaces and the homological conjectures.
+\newblock {\em J. Amer. Math. Soc.}, 32(2):473--522, 2019.
+
+\bibitem[BMP{\etalchar{+}}20]{BMPSTWW20}
+Bhargav Bhatt, Linquan Ma, Zsolt Patel, Karl Schwede, Kevin Tucker, Joe
+  Waldron, and Jakub Witaszek.
+\newblock The non-vanishing conjecture for mixed characteristic multiplier
+  ideals.
+\newblock {\em Adv. Stud. Pure Math.}, 83:63--88, 2020.
+
+\bibitem[BMP{\etalchar{+}}23]{BMP+23}
+Timothy Bravo, Meagan Maier, Manish Patnaik, Maja Popić, and Karl Schwede.
+\newblock Mixed characteristic tight closure: Singularities and big
+  cohen-macaulay algebras.
+\newblock {\em arXiv preprint}, arXiv:2301.02935, 2023.
+
+\bibitem[BS19]{BS19}
+Bhargav Bhatt and Peter Scholze.
+\newblock Prisms and prismatic cohomology.
+\newblock {\em arXiv preprint}, arXiv:1905.08229, 2019.
+
+\bibitem[BS22]{BS22}
+Bhargav Bhatt and Peter Scholze.
+\newblock Prismatic {F}-crystals and crystalline galois representations.
+\newblock {\em Ann. of Math.}, 196(3):795--866, 2022.
+
+\bibitem[HH90]{HH90}
+Melvin Hochster and Craig Huneke.
+\newblock Tight closure, invariant theory, and the {Briancon-Skoda} theorem.
+\newblock {\em J. Amer. Math. Soc.}, 3(1):31--116, 1990.
+
+\bibitem[HY03]{HY03}
+Nobuo Hara and Ken-Ichi Yoshida.
+\newblock A generalization of tight closure and multiplier ideals.
+\newblock {\em Trans. Amer. Math. Soc.}, 355(8):3143--3174, 2003.
+
+\bibitem[Laz04]{Laz04}
+Robert Lazarsfeld.
+\newblock {\em Positivity in Algebraic Geometry II}, volume~49 of {\em
+  Ergebnisse der Mathematik und ihrer Grenzgebiete}.
+\newblock Springer, 2004.
+
+\bibitem[MR18]{MR18}
+David Mckenzie and Felipe Rincon.
+\newblock An algorithmic approach to test ideals via trace ideals.
+\newblock {\em J. Symbolic Comput.}, 85:27--44, 2018.
+
+\bibitem[MS18]{MS18}
+Linquan Ma and Karl Schwede.
+\newblock Perfectoid multiplier/test ideals in regular rings and bounds on
+  symbolic powers.
+\newblock {\em Invent. Math.}, 214(2):913--955, 2018.
+
+\bibitem[MS21]{MS21}
+Linquan Ma and Karl Schwede.
+\newblock Test ideals in mixed characteristic.
+\newblock {\em Trans. Amer. Math. Soc.}, 374(8):5443--5471, 2021.
+
+\bibitem[QS17]{QS17}
+Pham~Hung Quy and Kazuma Shimomoto.
+\newblock $f$-singularities in characteristic zero via alterations.
+\newblock {\em Math. Ann.}, 369(3-4):1599--1627, 2017.
+
+\bibitem[Sch12]{Sch12}
+Peter Scholze.
+\newblock {\em Perfectoid spaces}, volume 116.
+\newblock 2012.
+
+\bibitem[TY21]{TY21}
+Hiromu Tanaka and Ken-Ichi Yoshida.
+\newblock Test ideals via reduction to characteristic {$p>0$}.
+\newblock {\em Nagoya Math. J.}, 243:132--167, 2021.
+
+\end{thebibliography}

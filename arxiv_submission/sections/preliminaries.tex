@@ -1,0 +1,126 @@
+\section{Preliminaries}\label{sec:preliminaries}
+
+This section establishes the necessary background and notation used throughout the paper. We begin with fundamentals of p-adic theory, then review test ideals in both positive and zero characteristic before introducing mixed characteristic test ideals. We conclude with a brief overview of perfectoid theory.
+
+\subsection{Notation and Conventions}
+
+Throughout this paper, $(R,\mathfrak{m})$ denotes a complete local domain of mixed characteristic $(0,p)$, where $p > 0$ is the characteristic of the residue field $k = R/\mathfrak{m}$. For a scheme $X$, we use $\mathcal{O}_X$ to denote its structure sheaf. All divisors are assumed to be effective $\mathbb{Q}$-divisors unless otherwise stated.
+
+For a domain $R$, we denote its fraction field by $\text{Frac}(R)$. For a local ring $(R, \mathfrak{m})$, we denote its completion with respect to the $\mathfrak{m}$-adic topology by $\hat{R}$.
+
+\subsection{P-adic Expansions and Binary Representations}
+
+\begin{definition}[P-adic Expansion]\label{def:p-adic-expansion}
+Let $(R,\mathfrak{m})$ be a complete local domain of mixed characteristic $(0,p)$. For an element $x \in R$, the p-adic expansion is
+$$x = \sum_{i=0}^{\infty} a_i p^i$$
+where each $a_i \in \{0,1,\ldots,p-1\}$ or belongs to a fixed set of representatives of the residue field $k = R/\mathfrak{m}$.
+\end{definition}
+
+The p-adic expansion is unique once we fix a set of representatives for the residue field. In this paper, we will primarily focus on the case where $p=2$ or where the specific digit values (rather than just their residue classes) matter.
+
+\begin{definition}[Binary P-adic Representation]\label{def:binary-representation}
+The binary p-adic representation of $x \in R$ is defined as the sequence
+$$\binp(x) = (a_0, a_1, a_2, \ldots)$$
+where the $a_i$ are the digits in the p-adic expansion of $x$.
+\end{definition}
+
+\begin{definition}[P-adic Valuation]\label{def:p-adic-valuation}
+The p-adic valuation of $x \in R$, denoted $\val(x)$, is the smallest index $i$ such that $a_i \neq 0$ in the p-adic expansion of $x$. If $x = 0$, then $\val(x) = \infty$.
+\end{definition}
+
+The p-adic valuation satisfies the following properties:
+\begin{enumerate}
+    \item $\val(x \cdot y) = \val(x) + \val(y)$ for all $x, y \in R \setminus \{0\}$
+    \item $\val(x + y) \geq \min\{\val(x), \val(y)\}$ for all $x, y \in R$
+    \item $\val(x + y) = \min\{\val(x), \val(y)\}$ if $\val(x) \neq \val(y)$
+\end{enumerate}
+
+These properties make the p-adic valuation a discrete valuation on $R$.
+
+\begin{example}\label{ex:p-adic-expansion}
+In $\Z_p$, the p-adic integers, we have:
+\begin{itemize}
+    \item $p$ has p-adic expansion $p = 0 \cdot p^0 + 1 \cdot p^1 + 0 \cdot p^2 + \ldots$, so $\binp(p) = (0, 1, 0, \ldots)$ and $\val(p) = 1$.
+    \item $1 + p$ has p-adic expansion $1 + p = 1 \cdot p^0 + 1 \cdot p^1 + 0 \cdot p^2 + \ldots$, so $\binp(1+p) = (1, 1, 0, \ldots)$ and $\val(1+p) = 0$.
+    \item $p^2 + p$ has p-adic expansion $p^2 + p = 0 \cdot p^0 + 1 \cdot p^1 + 1 \cdot p^2 + 0 \cdot p^3 + \ldots$, so $\binp(p^2+p) = (0, 1, 1, 0, \ldots)$ and $\val(p^2+p) = 1$.
+\end{itemize}
+\end{example}
+
+\subsection{Classical Test Ideals}
+
+We now review the classical definitions of test ideals in characteristic $p > 0$ and multiplier ideals in characteristic 0.
+
+\subsubsection{Test Ideals in Characteristic $p > 0$}
+
+\begin{definition}[Test Ideal in Characteristic $p > 0$]\label{def:test-ideal-char-p}
+Let $R$ be a normal domain of characteristic $p > 0$ and $\Delta$ an effective $\mathbb{Q}$-divisor on $\text{Spec}(R)$. The test ideal $\tau(R,\Delta)$ is defined as
+$$\tau(R,\Delta) = \sum_{e > 0} \sum_{\phi \in \text{Hom}_R(F^e_*R, R)} \phi(F^e_*R \cdot \lceil(p^e-1)\Delta\rceil)$$
+where $F^e: R \to R$ is the $e$-th iterate of the Frobenius endomorphism, and $F^e_*R$ denotes $R$ viewed as an $R$-module via $F^e$.
+\end{definition}
+
+An equivalent definition uses tight closure:
+
+\begin{definition}[Tight Closure Test Ideal]\label{def:tight-closure-test-ideal}
+For a normal domain $R$ of characteristic $p > 0$, the test ideal $\tau(R)$ can be defined as
+$$\tau(R) = \{r \in R \mid r \cdot I^* \subseteq I \text{ for all ideals } I \subseteq R\}$$
+where $I^*$ denotes the tight closure of the ideal $I$.
+\end{definition}
+
+For an excellent normal domain $R$ of characteristic $p > 0$, these definitions coincide when $\Delta = 0$.
+
+\subsubsection{Multiplier Ideals in Characteristic 0}
+
+\begin{definition}[Multiplier Ideal in Characteristic 0]\label{def:multiplier-ideal}
+Let $R$ be a normal domain of characteristic 0 and $\Delta$ an effective $\mathbb{Q}$-divisor on $\text{Spec}(R)$. The multiplier ideal $\mathcal{J}(R,\Delta)$ is defined via a log resolution $\pi: Y \to \text{Spec}(R)$ as
+$$\mathcal{J}(R,\Delta) = \pi_*\mathcal{O}_Y(K_Y - \lfloor\pi^*\Delta\rfloor)$$
+where $K_Y$ is the canonical divisor of $Y$.
+\end{definition}
+
+Multiplier ideals satisfy several important properties, including:
+\begin{enumerate}
+    \item (Subadditivity) $\mathcal{J}(R,\Delta_1+\Delta_2) \subseteq \mathcal{J}(R,\Delta_1) \cdot \mathcal{J}(R,\Delta_2)$
+    \item (Restriction) $\mathcal{J}(R,\Delta)|_Z \subseteq \mathcal{J}(Z,\Delta|_Z)$ for a normal subvariety $Z$
+    \item (Completion) $\mathcal{J}(\hat{R},\hat{\Delta}) \cap R = \mathcal{J}(R,\Delta)$ under mild conditions
+\end{enumerate}
+
+\subsection{Mixed Characteristic Test Ideals}
+
+\begin{definition}[Plus Closure]\label{def:plus-closure}
+For a domain $R$, the plus closure of an ideal $I \subseteq R$, denoted $I^+$, is defined as
+$$I^+ = I R^+ \cap R$$
+where $R^+$ is the integral closure of $R$ in an algebraic closure of its fraction field.
+\end{definition}
+
+\begin{definition}[Plus Closure Test Ideal]\label{def:plus-closure-test-ideal}
+For a complete local domain $(R,\mathfrak{m})$ of mixed characteristic $(0,p)$ and an effective $\mathbb{Q}$-divisor $\Delta$, the plus closure test ideal $\tau_+(R,\Delta)$ is defined as
+$$\tau_+(R,\Delta) = \bigcap_{f: Y \to \text{Spec}(R)} \text{Tr}_f(f_*\mathcal{O}_Y(K_Y - \lfloor f^*\Delta\rfloor))$$
+where the intersection runs over all finite morphisms $f$ from normal integral schemes $Y$ to $\text{Spec}(R)$, and $\text{Tr}_f$ is the trace map.
+\end{definition}
+
+This definition, introduced by Ma and Schwede \cite{MS21}, provides a geometric generalization of test ideals to the mixed characteristic setting.
+
+\begin{definition}[Perfectoid Test Ideal]\label{def:perfectoid-test-ideal}
+For a complete local domain $(R,\mathfrak{m})$ of mixed characteristic $(0,p)$ and an effective $\mathbb{Q}$-divisor $\Delta$, the perfectoid test ideal $\tau_{\text{perf}}(R,\Delta)$ is defined using perfectoid algebras and almost mathematics.
+\end{definition}
+
+The precise definition of the perfectoid test ideal is technical and involves the theory of perfectoid spaces, which we briefly review in the next subsection.
+
+\subsection{Perfectoid Theory}
+
+Perfectoid spaces, introduced by Scholze \cite{Sch12}, provide a powerful framework for studying mixed characteristic phenomena.
+
+\begin{definition}[Perfectoid Algebra]\label{def:perfectoid-algebra}
+Let $(R,\mathfrak{m})$ be a complete local domain of mixed characteristic $(0,p)$. A perfectoid algebra over $R$ is a Banach $R$-algebra $S$ such that:
+\begin{enumerate}
+    \item The Frobenius map $\Phi: S/p^{1/p}S \to S/pS$ given by $x \mapsto x^p$ is an isomorphism
+    \item $p \in S$ has a $p$-th root in $S$
+\end{enumerate}
+\end{definition}
+
+\begin{definition}[Perfectoid Completion]\label{def:perfectoid-completion}
+For a complete local domain $(R,\mathfrak{m})$ of mixed characteristic $(0,p)$, the perfectoid completion $R_{\text{perf}}$ is obtained by completing the direct limit of the tower:
+$$R \xrightarrow{x \mapsto x^p} R \xrightarrow{x \mapsto x^p} R \xrightarrow{x \mapsto x^p} \cdots$$
+and then taking an appropriate normalization.
+\end{definition}
+
+Perfectoid theory provides a "tilting" equivalence between perfectoid algebras in mixed characteristic and perfectoid algebras in positive characteristic, allowing techniques to be transferred between these settings. 

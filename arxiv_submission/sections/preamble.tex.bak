@@ -1,0 +1,93 @@
+% Preamble for "Binary P-adic Theory of Test Ideals in Mixed Characteristic"
+
+% Required packages
+\usepackage{amsmath, amssymb, amsthm, amsfonts}
+\usepackage{mathtools}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{cleveref}
+
+% Hyperref should be loaded last (except for cleveref)
+\usepackage{hyperref}
+
+% Set up hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    citecolor=green,
+    pdftitle={Binary P-adic Theory of Test Ideals in Mixed Characteristic},
+    pdfauthor={Brandon Barclay},
+    pdfsubject={Mathematics, Algebraic Geometry},
+    pdfkeywords={test ideals, p-adic, mixed characteristic, algebraic geometry}
+}
+
+% Fix hyperref warnings with math in bookmarks
+\usepackage{bookmark}
+\pdfstringdefDisableCommands{%
+  \def\binp{\textrm{bin}_p}%
+  \def\val{\textrm{val}_p}%
+  \def\ordp{\textrm{ord}_p}%
+  \def\tauplus{\textrm{tau}_+}%
+  \def\pfrac{\textrm{P}}%
+  \def\perfectoid{\textrm{perf}}%
+  \def\binfrac{\textrm{B}}%
+  \def\R{\textrm{R}}%
+  \def\Z{\textrm{Z}}%
+  \def\Q{\textrm{Q}}%
+  \def\N{\textrm{N}}%
+  \def\C{\textrm{C}}%
+  \def\F{\textrm{F}}%
+}
+
+% Theorem environments
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{problem}[theorem]{Problem}
+
+\theoremstyle{remark}
+\newtheorem{notation}[theorem]{Notation}
+
+% Custom commands for common mathematical objects
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+
+% P-adic specific commands
+\newcommand{\val}{\operatorname{val}_p}
+\newcommand{\ordp}{\operatorname{ord}_p}
+\newcommand{\binp}{\operatorname{bin}_p}
+\newcommand{\tauplus}{\tau_+}
+\newcommand{\pfrac}{\mathcal{P}}
+\newcommand{\perfectoid}{\operatorname{perf}}
+\newcommand{\binfrac}{\mathcal{B}}
+
+% Test ideal specific commands
+\newcommand{\testideal}[2]{\tau_+(#1,#2)}
+\newcommand{\completion}{\hat}
+\newcommand{\trace}{\operatorname{Tr}}
+\newcommand{\predicate}[2]{\mathcal{P}_{#1}(#2)}
+
+% Other useful commands
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+% Remove conflicting proof and qedhere commands
+% \newcommand{\proof}[1]{\begin{proof}#1\end{proof}}
+% \newcommand{\qedhere}{\tag*{\qed}} 
